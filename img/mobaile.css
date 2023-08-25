@@ -1,0 +1,39 @@
+/* mobaile responsive */
+
+
+@media screen and (max-width: 576px) {
+    
+    header{
+        width: 100%;
+        padding: 30px;
+    }
+
+
+    nav{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    nav ul{
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+    }
+    nav li{
+        width: 300px;
+        background: #000;
+        margin-top: 15px;
+        text-align: center;
+        padding: 5px;
+        border-radius: 5px;
+        margin-right: 0px;
+
+
+    }
+
+    nav a{
+        color:white;
+    }
+
+}
